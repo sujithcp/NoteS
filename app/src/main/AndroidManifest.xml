@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sujith.cp.notes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_ic"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoteList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NOTESUJITH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditNote"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDITNOTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoteView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NOTEVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorPref"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.COLORPREF" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

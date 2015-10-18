@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|right"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/note_view_title"
+            android:layout_weight="0.94"
+            android:hint="Title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textColor="#ff173b"
+            android:layout_gravity="top"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/edit"
+            android:src="@drawable/edit_ic"
+            android:paddingRight="15dp" />
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout"
+    android:background="@drawable/edit_back"
+    android:id="@+id/scrollView"
+    android:layout_alignParentBottom="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_view"
+        android:gravity="top|left"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:maxLines="100"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:typeface="normal"
+        android:paddingLeft="40dp"
+        android:textColor="#dd3f32ff"
+        android:paddingTop="5dp"
+        />
+</ScrollView>
+
+</RelativeLayout><!-- From: file:/home/sujith/android_workspace2/NoteS/app/src/main/res/layout/note_view.xml -->

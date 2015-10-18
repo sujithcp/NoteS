@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sujith/android_workspace2/NoteS/app/build/intermediates/exploded-aar/com.github.yukuku/ambilwarna/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7ed87c7f833e46dacace668e63cb8c4b67cb3172">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/classes-87126bc5584c5af27de1264c8bd722deb410e6b3.jar" />
+    </item>
+    <item
+        jar="/home/sujith/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-29a29cc9a732e06d98fcffcc6aed37932f2fe0d9.jar" />
+    </item>
+    <item
+        jar="/home/sujith/android_workspace2/NoteS/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/classes-87e196efbefd65b9df94faa8ff20f13214a4255d.jar" />
+    </item>
+    <item
+        jar="/home/sujith/android_workspace2/NoteS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/classes-c2d72dc17f049286c25eeddb1e411ee89e6b8766.jar" />
+    </item>
+    <item
+        jar="/home/sujith/android_workspace2/NoteS/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/classes-c05ee68163410450e5e6d873d7f691afccb733f9.jar" />
+    </item>
+    <item
+        jar="/home/sujith/android_workspace2/NoteS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/sujith/android_workspace2/NoteS/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-47eed9050e58f15b1a2827d7ce7ffaf00e260e94.jar" />
+    </item>
+
+</items>
