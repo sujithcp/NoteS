@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:title="@string/about"
-    android:id="@+id/about"
-    ></item>
-    <item android:title="@string/action_settings"
-        android:id="@+id/settings"
-        ></item>
-</menu><!-- From: file:/home/sujith/android_workspace2/NoteS/app/src/main/res/menu/main.xml -->
